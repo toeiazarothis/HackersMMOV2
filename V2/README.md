@@ -5,4 +5,4 @@ F.H.C c'est tout simplement un communauté francophone sur le jeu Hackerz.
 
 
 ## Licences
-Tout droit reserver a ToeiAzarothis. Toute copie partiel ou integralle sans
+Tout droit reserver a ToeiAzarothis. Toute copie partiel ou integralle sans autorisation sera perçu comme un vol
