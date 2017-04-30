@@ -48,10 +48,10 @@
                 <a href="#Discord" onclick=$("#menu-close").click();>Discord</a>
             </li>
             <li>
-                <a href="#Histoire" onclick=$("#menu-close").click();>Notre Histoire</a>
+                <a href="histoire.php" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
-                <a href="#Alliances" onclick=$("#menu-close").click();>Nos alliances</a>
+                <a href="alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
                 <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>

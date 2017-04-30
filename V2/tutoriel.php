@@ -77,80 +77,38 @@
       </aside>
     </section>
 
-    <!-- Portfolio -->
     <section id="Tutoriel" class="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-10 col-lg-offset-1 text-center">
-              <h2>Les Tutoriels Ecrit</h2>
-              <hr class="small">
-              <div class="row">
-                <div class="col-md-6">
-                    <div class="portfolio-item">
-                        <a href="#Modal1" data-toggle="modal">
-                            <img class="img-portfolio img-responsive" src="img/tutoriel/Virus_Delete_Ip_History.jpg">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="portfolio-item">
-                        <a href="#Modal2" data-toggle="modal">
-                            <img class="img-portfolio img-responsive" src="img/tutoriel/Technique_Bounce.jpg">
-                        </a>
-                    </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                    <div class="portfolio-item">
-                        <a href="#Modal3" data-toggle="modal">
-                            <img class="img-portfolio img-responsive" src="img/tutoriel/Hack_Guilde.jpg">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="portfolio-item">
-                        <a href="#Modal4" data-toggle="modal">
-                        </a>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-    <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                  <h2>Les Tutoriels Ecrit</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal1">
+                                <a href="#Modal1" data-toggle="modal">
                                     <img class="img-portfolio img-responsive" src="img/tutoriel/Virus_Delete_Ip_History.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+                                <a href="#Modal2" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/Technique_Bounce.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
+                                <a href="#Modal3" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/Hack_Guilde.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
+                                <a href="#Modal4" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
                                 </a>
                             </div>
                         </div>

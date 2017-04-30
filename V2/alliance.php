@@ -48,7 +48,7 @@
                 <a href="#timeline" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
-                <a href="alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
+                <a href="alliances.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
                 <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
@@ -66,65 +66,11 @@
         </div>
     </header>
 
-    <!-- Timeline Section -->
-     <section id="timeline">
-         <div class="container">
-             <div class="row">
-                 <div class="col-lg-12 text-center">
-                     <h2 class="section-heading">Histoire</h2>
-                     <h3 class="section-subheading text-muted">Timeline.</h3>
-                 </div>
-             </div>
-             <div class="row">
-                 <div class="col-lg-12">
-                     <ul class="timeline">
-                         <li>
-                             <div class="timeline-image">
-                                 <img class="img-circle img-responsive img-centered" src="img/timeline/hackerz_logo.png" alt="">
-                             </div>
-                             <div class="timeline-panel">
-                                 <div class="timeline-heading">
-                                     <h4>2 Janvier 2017</h4>
-                                     <h4 class="subheading">Lancement du jeu</h4>
-                                 </div>
-                                 <div class="timeline-body">
-                                     <p class="text-muted">
-                                       Le jeu est lancer debut janvier en phase alpha sur le playstore de google.
-                                       Crée et regulierement mis a jour par un seul developpeur.
-                                       !
-                                     </p>
-                                 </div>
-                             </div>
-                         </li>
-                         <li class="timeline-inverted">
-                             <div class="timeline-image">
-                                 <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                             </div>
-                             <div class="timeline-panel">
-                                 <div class="timeline-heading">
-                                     <h4>31 Mars 2017</h4>
-                                     <h4 class="subheading">Lancement du site en Alpha</h4>
-                                 </div>
-                                 <div class="timeline-body">
-                                     <p class="text-muted">
-                                       Apres plusieur heures, jours, semaines. <br>
-                                       Le site est enfin dispo en phase Alpha. La plupart des fonctionalité vont continuer à etre ameliorer certaine vont disparaitre et d'autres vont naitre afin d'aidez au maximum la communauté des joueur Franconphone !
-                                     </p>
-                                 </div>
-                             </div>
-                         </li>
-                       <li class="timeline-inverted">
-                           <div class="timeline-image">
-                               <h4>Faites<br>partie de<br>l'histoire!</h4>
-                           </div>
-                       </li>
-                   </ul>
-               </div>
-           </div>
-       </div>
+    <!--  -->
+    <section>
+
     </section>
-
-
+    <!--  -->
     <!-- Footer -->
     <?php include('footer.php') ?>
 
