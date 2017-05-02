@@ -77,16 +77,62 @@
       </aside>
     </section>
 
+
     <section id="Tutoriel" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                  <h2>Les Tutoriels Ecrit</h2>
+                  <h2>Les Tutoriels de "Base"</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal1" data-toggle="modal">
+                                <a href="#ModalAttaqueDirect" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#ModalAttaqueBounce" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#Modal3" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#Modal4" data-toggle="modal">
+                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="Tutoriel2" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                  <h2>Les Tutoriels "avancé"</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="#ModalVirusDeleteIpHistory" data-toggle="modal">
                                     <img class="img-portfolio img-responsive" src="img/tutoriel/Virus_Delete_Ip_History.jpg">
                                 </a>
                             </div>
@@ -114,7 +160,6 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>

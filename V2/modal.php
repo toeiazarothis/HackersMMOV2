@@ -1,5 +1,65 @@
 <!-- Portfolio Modal Prochain client -->
-  <div class="portfolio-modal modal fade" id="Modal1" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="ModalAttaqueDirect" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Comment attaquer un joueur avec la technique dite "Direct".</h2>
+              <p class="item-intro text-muted">
+                Rappel du virus. <br>
+              </p>
+              <img class="img-responsive img-centered" src="" alt="">
+              <p>
+
+              </p>
+              <img class="img-responsive img-centered" src="" alt="">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="ModalAttaqueBounce" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"> </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <!-- Project Details Go Here -->
+              <h2>Comment realiser une attaque "Bounce".</h2>
+              <p class="item-intro text-muted">
+                Rappel du virus. <br>
+              </p>
+              <img class="img-responsive img-centered" src="" alt="">
+              <p>
+
+              </p>
+              <img class="img-responsive img-centered" src="" alt="">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="portfolio-modal modal fade" id="ModalVirusDeleteIpHistory" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -13,7 +73,8 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2>Comment éviter l'effet du virus "delete ip history".</h2>
-                <p class="item-intro text-muted">Rappel du virus. <br>
+                <p class="item-intro text-muted">
+                  Rappel du virus. <br>
                   Le virus "delete ip history" sert à effacer la liste d'ip que vous possédez. Il réagit au moment où vous vous connectez au jeu. Cependant, il est possible de conserver sa liste de 2 façons différentes.
                 </p>
                 <img class="img-responsive img-centered" src="" alt="">
