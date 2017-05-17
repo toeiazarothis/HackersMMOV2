@@ -80,10 +80,8 @@
               <a target="_blank" href="https://play.google.com/store/apps/details?id=net.okitoo.hackers"><img class="img-responsive img-centered" src="../View/img/logo_googleplay.png" alt="Playstore"></a>
             </div>
             <div class="col-lg-6 text-center">
-              <p class="lead">Le jeu est encore en beta. Un seul developpeur est sur le projet.</p>
-              <p class="lead">
-                Il s'agit d'un jeu de simulation de piratage, toutes les IP sont fausses et votre périphérique reste "sécurisé".
-              </p>
+              <p class="lead">Le jeu est encore en bêta. Un seul développeur est sur le projet.</p>
+              <p class="lead">Il s'agit d'un jeu de simulation de piratage, toutes les IP sont fausses et votre périphérique reste "sécurisé".</p>
             </div>
           </div>
         </div>
@@ -96,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Afin d'ameliorer notre cohésion de groupe!</h2>
+                    <h2>Afin d'améliorer la cohésion au sein de la communauté!</h2>
                     <p class="lead">Un serveur de conversation Discord à était ouvert.</p>
                     <button type="button" class="btn btn-success btn-lg">Rejoind la F.H.C</button>
                 </div>
@@ -185,7 +183,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>Impossible de resister a ce bouton.</h3>
+                    <h3>Impossible de résister à ce bouton.</h3>
                     <a href="#" class="btn btn-lg btn-light">Clique ici !</a>
                     <a href="#" class="btn btn-lg btn-dark">Regarde Moi !</a>
                 </div>
