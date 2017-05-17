@@ -19,7 +19,40 @@ function listeJoueurs(){
   return $texte;
 }
 
-// fonction pour afficher la liste des classes
+// Fonction qui permet d'afficher la liste des alliance de la FHC dans un tableau
+function listeAlliances(){
+  $connexion = connectionDB();
+  $texte = '';
+  $listeNew = $connexion->query('SELECT * FROM `HackMMO-Alliance` ORDER BY `HackMMO-Alliance`.`Reputation_Guilde`ASC');
+  while ($result = $listeNew->fetch()) {
+    $texte .=
+    '<tr>
+      <td>'.$result['Nom_De_Guilde'].'</td>
+      <td>'.$result['Blason_Guilde'].'</td>
+      <td>'.$result['Reputation_Guilde'].'</td>
+      <td>'.$result['Joueurs_Dans_Guilde'].' / 10</td>
+    </tr>';}
+  return $texte;
+}
+
+// Fonction qui permet d'afficher la liste des alliance de la FHC
+function listeAlliances2(){
+  $connexion = connectionDB();
+  $texte = '';
+  $listeNew = $connexion->query('SELECT * FROM `HackMMO-Alliance` ORDER BY `HackMMO-Alliance`.`Reputation_Guilde`ASC');
+  while ($result = $listeNew->fetch()) {
+    $texte .=
+    '<div class="col-lg-4 text-center">
+      <h3>'.$result['Blason_Guilde'].'</h3><hr class="small">
+      <p>Nom de la Guilde : '.$result['Nom_De_Guilde'].'<br>
+      Reputation Minimal : '.$result['Reputation_Guilde'].'<br>
+      Nombre de joueurs dans la guilde : '.$result['Joueurs_Dans_Guilde'].' / 10 </p>
+    </div>';
+  }
+  return $texte;
+}
+
+// fonction pour afficher la liste des joueurs
 function listeDeToutLesJoueurs () {
 	$connexion = connectionDB();
 	$reponse = $connexion->query("SELECT `Pseudo` FROM `HackMMO-Joueur` ORDER BY `HackMMO-Joueur`.`Pseudo`ASC");

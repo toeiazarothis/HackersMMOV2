@@ -1,0 +1,7 @@
+RewriteBase /
+Options +FollowSymlinks
+RewriteEngine On
+
+#Regles
+RewriteRule ^$ counter/Theme/
+RewriteRule ^accueil$ Controller/c_accueil.php

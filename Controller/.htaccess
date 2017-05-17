@@ -1,0 +1,8 @@
+RewriteBase /
+Options +FollowSymlinks
+RewriteEngine On
+
+#Regles
+RewriteRule ^$ counter/Theme/
+RewriteRule ^accueil$ Controller/c_index.php
+RewriteRule ^histoire$ Controller/c_histoire.php

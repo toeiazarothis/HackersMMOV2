@@ -12,10 +12,10 @@
     <title>Histoire de la F.H.C</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../View/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="../View/css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -42,16 +42,16 @@
                 <a href="#top" onclick=$("#menu-close").click();>FrenchHookCorp</a>
             </li>
             <li>
-                <a href="index.php" onclick=$("#menu-close").click();>Accueil</a>
+                <a href="c_index.php" onclick=$("#menu-close").click();>Accueil</a>
             </li>
             <li>
                 <a href="#timeline" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
-                <a href="alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
+                <a href="c_alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
-                <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
+                <a href="c_tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
             </li>
         </ul>
     </nav>
@@ -80,7 +80,7 @@
                      <ul class="timeline">
                          <li>
                              <div class="timeline-image">
-                                 <img class="img-circle img-responsive img-centered" src="img/timeline/hackerz_logo.png" alt="">
+                                 <img class="img-circle img-responsive img-centered" src="../View/img/timeline/hackerz_logo.png" alt="">
                              </div>
                              <div class="timeline-panel">
                                  <div class="timeline-heading">
@@ -126,13 +126,13 @@
 
 
     <!-- Footer -->
-    <?php include('footer.php') ?>
+    <?php include('../View/footer.php') ?>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../View/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../View/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>

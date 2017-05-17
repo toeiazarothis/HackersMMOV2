@@ -12,10 +12,10 @@
     <title>Tutoriel de la F.H.C</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../View/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="../View/css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -42,16 +42,16 @@
                 <a href="#top" onclick=$("#menu-close").click();>FrenchHookCorp</a>
             </li>
             <li>
-                <a href="index.php" onclick=$("#menu-close").click();>Accueil</a>
+                <a href="c_index.php" onclick=$("#menu-close").click();>Accueil</a>
             </li>
             <li>
                 <a href="#TutorielAnnonce" onclick=$("#menu-close").click();>Les tutoriel</a>
             </li>
             <li>
-                <a href="#Histoire" onclick=$("#menu-close").click();>Notre Histoire</a>
+                <a href="c_histoire.php" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
-                <a href="#Alliances" onclick=$("#menu-close").click();>Nos alliances</a>
+                <a href="c_alliances.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
         </ul>
     </nav>
@@ -62,7 +62,7 @@
             <h1>French Hook Corporation</h1>
             <h3>Tutoriel Texte &amp; Video</h3>
             <br>
-            <a href="#TutorielAnnonce" class="btn btn-dark btn-lg">Lire les tutoriel</a>
+            <a href="#TutorielAnnonce" class="btn btn-dark btn-lg">En savoir plus</a>
         </div>
     </header>
 
@@ -72,7 +72,7 @@
           <div class="text-vertical-center">
               <h1 class="section-heading">Les differents tutoriels</h1>
               <h2 class="section-subheading">Pour des joueurs casu ou pour des joueurs plus experimente ,<br>des tutoriels seront disponible regulierement ici sous différents contenues.</h2>
-              <a href="#Tutoriel" class="btn btn-dark btn-lg"> ... </a>
+              <a href="#Tutoriel" class="btn btn-dark btn-lg">Lire les tutoriels de "base" </a>
           </div>
       </aside>
     </section>
@@ -115,6 +115,8 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
+                    <a href="#Tutoriel2" class="btn btn-dark btn-lg">Lire les tutoriel "avancé" </a>
+
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -133,32 +135,33 @@
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#ModalVirusDeleteIpHistory" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/Virus_Delete_Ip_History.jpg">
+                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Virus_Delete_Ip_History.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#Modal2" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/Technique_Bounce.jpg">
+                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Technique_Bounce.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#Modal3" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/Hack_Guilde.jpg">
+                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Hack_Guilde.jpg">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#Modal4" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
+                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/.jpg">
                                 </a>
                             </div>
                         </div>
                     </div>
+                    <br>
                     <!-- /.row (nested) -->
                 </div>
                 <!-- /.col-lg-10 -->
@@ -180,17 +183,17 @@
             </div>
         </div>
     </aside> -->
-    <hr class="meduim">
+
     <!-- Fenetre Modal -->
     <?php include('modal.php') ?>
     <!-- Footer -->
     <?php include('footer.php') ?>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../View/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../View/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>

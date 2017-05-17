@@ -9,13 +9,13 @@
     <meta name="author" content="ToeiAzarothis">
     <link rel="author" href="humans.txt"/>
 
-    <title>Base de donné de la F.H.C</title>
+    <title>Acceuil de la F.H.C</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../View/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="../View/css/stylish-portfolio.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
@@ -48,13 +48,13 @@
                 <a href="#Discord" onclick=$("#menu-close").click();>Discord</a>
             </li>
             <li>
-                <a href="#Histoire" onclick=$("#menu-close").click();>Notre Histoire</a>
+                <a href="c_histoire.php" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
-                <a href="#Alliances" onclick=$("#menu-close").click();>Nos alliances</a>
+                <a href="c_alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
-                <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
+                <a href="c_tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
             </li>
         </ul>
     </nav>
@@ -77,7 +77,7 @@
             <h2>Hackers MMO</h2>
 
             <div class="col-lg-6 text-center">
-              <a target="_blank" href="https://play.google.com/store/apps/details?id=net.okitoo.hackers"><img class="img-responsive img-centered" src="img/logo_googleplay.png" alt="Playstore"></a>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=net.okitoo.hackers"><img class="img-responsive img-centered" src="../View/img/logo_googleplay.png" alt="Playstore"></a>
             </div>
             <div class="col-lg-6 text-center">
               <p class="lead">Le jeu est encore en beta. Un seul developpeur est sur le projet.</p>
@@ -112,20 +112,19 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
-                    <h2>Our Services</h2>
+                    <h2>Nos Credos</h2>
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <i class="fa fa-users fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>Unis</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Pour ne jamais faiblir face au imprévu du destin.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -137,8 +136,7 @@
                                 <h4>
                                     <strong>Objectif</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Ce donnée des objectifs (seul ou à plusieurs) pour se dépasser.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -150,8 +148,7 @@
                                 <h4>
                                     <strong>Savoir</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Apprendre sans cesse pour mieux connaitre nos adversaires.</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -163,8 +160,7 @@
                                 <h4>
                                     <strong>Defense</strong>
                                 </h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <p>Défendre toutes les personnes qui en feront la demande.</p>
                             </div>
                         </div>
                     </div>
@@ -180,65 +176,18 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1></h1>
         </div>
     </aside>
-
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                    <h3>Impossible de resister a ce bouton.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Clique ici !</a>
+                    <a href="#" class="btn btn-lg btn-dark">Regarde Moi !</a>
                 </div>
             </div>
         </div>
@@ -249,10 +198,10 @@
     <?php include('footer.php') ?>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="../View/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../View/js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
