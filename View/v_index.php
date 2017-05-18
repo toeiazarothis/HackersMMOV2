@@ -62,7 +62,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>French Hook Corporation</h1>
+            <h1>French Hook Corp</h1>
             <h3>Hacking Cracking &amp; Decrypted</h3>
             <br>
             <a href="#Presentation" class="btn btn-dark btn-lg">En savoir plus</a>
@@ -93,10 +93,13 @@
     <section id="Discord" class="Discord bg-darkest-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-8 text-center">
                     <h2>Afin d'améliorer la cohésion au sein de la communauté!</h2>
                     <p class="lead">Un serveur de conversation Discord à était ouvert.</p>
                     <button type="button" class="btn btn-success btn-lg">Rejoind la F.H.C</button>
+                </div>
+                <div class="col-lg-4 text-center">
+                  <iframe src="https://discordapp.com/widget?id=273511688689418240&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
                 </div>
             </div>
             <!-- /.row -->

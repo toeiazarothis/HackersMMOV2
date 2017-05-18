@@ -59,7 +59,7 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>French Hook Corporation</h1>
+            <h1>French Hook Corp</h1>
             <h3>Hacking Cracking &amp; Decrypted</h3>
             <br>
             <a href="#listeAlliance" class="btn btn-dark btn-lg">Decouvrir nos alliances</a>
