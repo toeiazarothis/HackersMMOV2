@@ -9,7 +9,7 @@
     <meta name="author" content="ToeiAzarothis">
     <link rel="author" href="humans.txt"/>
 
-    <title>Base de donné de la F.H.C</title>
+    <title>Base de données de la F.H.C</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../View/css/bootstrap.css" rel="stylesheet">
@@ -54,7 +54,7 @@
                 <a href="#Alliances" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
-                <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
+                <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriels</a>
             </li>
         </ul>
     </nav>
@@ -74,16 +74,16 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Liste de toute les ip</h2>
+            <h2>Liste des IP</h2>
           </div>
           <table class="table table-hover text-center">
             <thead>
               <tr>
                 <th class="text-center">Pseudo</th>
                 <th class="text-center">IP</th>
-                <th class="text-center">Reputation</th>
+                <th class="text-center">Réputation</th>
                 <th class="text-center">Rang particulier</th>
-                <th class="text-center">Information bonus</th>
+                <th class="text-center">Information(s) bonus</th>
                 <th class="text-center">Nom de Guilde</th>
                 <th class="text-center">Blason Guilde</th>
               </tr>

@@ -74,10 +74,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Mise a jour du profil de <?php echo (["Pseudo"]) ?></h2>
+            <h2>Mise à jour du profil de <?php echo (["Pseudo"]) ?></h2>
           </div>
           <div class="col-lg-6 col-lg-offset-3 text-center">
-            <form class="form-horizontal" role="form" method="post" action="traitement.php">
+            <form class="form-horizontal" role="form" method="post" action="c_traitement.php">
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Pseudo</label>
                 <div class="col-sm-10">
@@ -91,7 +91,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">Reputation</label>
+                <label for="name" class="col-sm-2 control-label">Réputation</label>
                 <div class="col-sm-10">
                   <input type="number" class="form-control" id="Reputation" name="Reputation" placeholder="Reputation du joueur" value="" required="">
                 </div>
@@ -103,8 +103,8 @@
                      <option value="Joueur Lambda">Joueur Lambda</option>
                      <option value="Membre de la FHC">Membre de la FHC</option>
                      <option value="Top 100">Top 100</option>
-                     <option value="Moderateur">Moderateur</option>
-                     <option value="Developpeur">Developpeur</option>
+                     <option value="Moderateur">Modérateur</option>
+                     <option value="Developpeur">Développeur</option>
                    </select>
                 </div>
               </div>
@@ -121,9 +121,9 @@
                 </div>
               </div>
               <div class="form-group">
-                <label for="name" class="col-sm-2 control-label">Abreviation guilde</label>
+                <label for="name" class="col-sm-2 control-label">Abréviation guilde</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="Blason_Guilde" name="Blason_Guilde" placeholder="Abreviation de la guilde" value="">
+                  <input type="text" class="form-control" id="Blason_Guilde" name="Blason_Guilde" placeholder="Abréviation de la guilde" value="">
                 </div>
               </div>
               <div class="form-group">

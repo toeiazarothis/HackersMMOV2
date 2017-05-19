@@ -45,7 +45,7 @@
                 <a href="c_index.php" onclick=$("#menu-close").click();>Accueil</a>
             </li>
             <li>
-                <a href="#TutorielAnnonce" onclick=$("#menu-close").click();>Les tutoriel</a>
+                <a href="#TutorielAnnonce" onclick=$("#menu-close").click();>Les tutoriels</a>
             </li>
             <li>
                 <a href="c_histoire.php" onclick=$("#menu-close").click();>Notre Histoire</a>
@@ -71,7 +71,8 @@
       <aside class="callout">
           <div class="text-vertical-center">
               <h1 class="section-heading">Les differents tutoriels</h1>
-              <h2 class="section-subheading">Pour des joueurs casu ou pour des joueurs plus experimente ,<br>des tutoriels seront disponible regulierement ici sous différents contenues.</h2>
+              <h2 class="section-subheading">Pour des joueurs casual ou pour des joueurs plus expérimentés,<br>
+                des tutoriels seront disponibles régulièrement ici sous différents contenu.</h2>
               <a href="#Tutoriel" class="btn btn-dark btn-lg">Lire les tutoriels de "base" </a>
           </div>
       </aside>
@@ -115,7 +116,7 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <a href="#Tutoriel2" class="btn btn-dark btn-lg">Lire les tutoriel "avancé" </a>
+                    <a href="#Tutoriel2" class="btn btn-dark btn-lg">Lire les tutoriels "avancé" </a>
 
                 </div>
                 <!-- /.col-lg-10 -->
