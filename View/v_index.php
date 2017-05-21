@@ -54,7 +54,7 @@
                 <a href="c_alliance.php" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
-                <a href="c_tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
+                <a href="c_tutoriel.php" onclick=$("#menu-close").click();>Les Tutoriels</a>
             </li>
         </ul>
     </nav>
@@ -135,7 +135,7 @@
                                 <i class="fa fa-compass fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Objectif</strong>
+                                    <strong>Objectifs</strong>
                                 </h4>
                                 <p>Ce donnée des objectifs (seul ou à plusieurs) pour se dépasser.</p>
                             </div>
@@ -159,7 +159,7 @@
                                 <i class="fa fa-shield fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Defense</strong>
+                                    <strong>Défense</strong>
                                 </h4>
                                 <p>Défendre toutes les personnes qui en feront la demande.</p>
                             </div>

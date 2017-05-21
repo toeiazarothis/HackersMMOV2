@@ -96,12 +96,44 @@
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
                   <h2>Prise de contact</h2>
-                  <p class="item-intro text-muted"><br>
-                  </p>
-                  <img class="img-responsive img-centered" src="" alt="">
-                  <p></p>
-                  <img class="img-responsive img-centered" src="" alt="">
-                  <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer la fenêtre</button> </div>
+                  <p class="item-intro text-muted">Ce formulair n'est pas encore operationnel. Si vous souhaitez contacter la communauté F.H.C. venner directement en jeu pour tenter de croiser Junko0 ou bien Machiavel (qui sont les deux moderateur France du jeu et egalement membre de F.H.C.)<br></p>
+                  <p>Afin de nous contacter veuillez remplir ce formulaire.<br>Ceci nous permettra de mieux vous repondre et le plus vite possible.</p>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                      <form class="form-horizontal" role="form" method="post" action="traitement.php">
+                      	<div class="form-group">
+                      		<div class="col-sm-12">
+                      			<input type="text" class="form-control" id="nom" name="nom" placeholder="Pseudo" value="" required="">
+                      		</div>
+                      	</div>
+                        <div class="form-group">
+                      		<div class="col-sm-12">
+                      			<input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom" value="" required="">
+                      		</div>
+                      	</div>
+                        <div class="form-group">
+                      		<div class="col-sm-12">
+                      			<input type="tel" class="form-control" id="tel" name="tel" placeholder="Telephone" value="" required="">
+                      		</div>
+                      	</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                      	<div class="form-group">
+                      			<textarea class="form-control" id="message" name="message" placeholder="Entrez votre message" value="" rows="8" required="" ></textarea>
+                      	</div>
+                      </div>
+                      	<div class="form-group">
+                      		<div class="col-sm-8 col-sm-offset-2">
+                            <input name="reset"  type="reset" value="Effacer" class="btn btn-danger">
+                            <input name="submit" type="submit" value="Envoyer"class="btn btn-success">
+                      		</div>
+                      	</div>
+                      </form>
+                    </div>
+                  <button type="button" class="btn btn-dark" data-dismiss="modal">Fermer la fenêtre</button>
+                </div>
               </div>
             </div>
           </div>

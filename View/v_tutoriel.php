@@ -88,30 +88,22 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#ModalAttaqueDirect" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#ModalAttaqueDirect" data-toggle="modal" src="../View/img/tutoriel/Technique_Direct.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#ModalAttaqueBounce" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#ModalAttaqueBounce" data-toggle="modal" src="../View/img/tutoriel/Technique_Bounce.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal3" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#ModalVirusListe" data-toggle="modal" src="../View/img/tutoriel/Liste_Des_Virus.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal4" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="img/tutoriel/.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#Modal4" data-toggle="modal" src="../View/img/tutoriel/.jpg">
                             </div>
                         </div>
                     </div>
@@ -135,30 +127,22 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#ModalVirusDeleteIpHistory" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Virus_Delete_Ip_History.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive"  href="#ModalVirusDeleteIpHistory" data-toggle="modal" src="../View/img/tutoriel/Virus_Delete_Ip_History.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal2" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Technique_Bounce.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#ModalWannaCryLenfer" data-toggle="modal" src="../View/img/tutoriel/WannaCry_IG.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal3" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/Hack_Guilde.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#Modal" data-toggle="modal" src="../View/img/tutoriel/Hack_Guilde.jpg">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#Modal4" data-toggle="modal">
-                                    <img class="img-portfolio img-responsive" src="../View/img/tutoriel/.jpg">
-                                </a>
+                              <img class="img-portfolio img-responsive" href="#Modal4" data-toggle="modal" src="../View/img/tutoriel/.jpg">
                             </div>
                         </div>
                     </div>

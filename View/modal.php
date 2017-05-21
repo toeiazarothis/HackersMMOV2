@@ -42,7 +42,7 @@
           <div class="col-lg-8 col-lg-offset-2">
             <div class="modal-body">
               <!-- Project Details Go Here -->
-              <h2>Comment realiser une attaque "Bounce".</h2>
+              <h2>Comment attaquer un joueur avec la technique dite "Bounce".</h2>
               <p class="item-intro text-muted">
                 Rappel du virus. <br>
               </p>
@@ -93,6 +93,42 @@
                     En espérant que ça vous aide
                   </p>
                 <img class="img-responsive img-centered" src="" alt="">
+                <hr class="small"><p>Auteur : Machiavel</p>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Comment eviter le virus WannaCry sur le jeu -->
+  <div class="portfolio-modal modal fade" id="ModalWannaCryLenfer" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"> </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Comment éviter l'infection ?</h2>
+                <p class="item-intro text-muted">Avant toute chose il faut comprendre que WannaCry n'est pas un virus habituel. Celui ci s'installe de lui meme dans le "Gateway" de la victime dès que celle-ci se connecte à un joueur.<br></p>
+                <p>Mais pourquoi WannaCry est si dangereux ?<br>...</p><hr>
+                <p>Afin de souffrir un minimum du virus il vous faudra dès la connection vous rendre dans votre software afin de lancer le scan de votre antivirus.<br>L'antivirus dans certain cas ne pourra pas tout supprimer du premier coup, si c'est votre cas je vous conseil de relancer le jeu 2H plus tard afin de refaire un scan et ainsi reduire encore les fichier infectieux de votre "Gateway".</p>
+                <p>Si votre antivirus a supprimé tous les fichiers vous pouvez recolter sans crainte vos HC.</p>
+                <p>Ensuite à votre prochaine attaque n'hesitez pas à lancer un scan sur votre cible afin de savoir si c'est reellement utile de l'attaquer ou si c'est trop risqué vue le nombre de virus qui se sont immiscé dans son "Gateway"
+                </p>
+                Lorsque le "Gateway" n'est pas infecté.
+                <img class="img-responsive img-centered" src="../View/img/tutoriel/screen/AntivirusClean.png" alt="">
+                Lorsque le "Gateway" est infecté.
+                <img class="img-responsive img-centered" src="../View/img/tutoriel/screen/AntivirusNotClean.png" alt="">
+                <hr class="small"><p>Auteur : Machiavel</p>
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
             </div>
           </div>
