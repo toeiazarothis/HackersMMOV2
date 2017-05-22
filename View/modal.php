@@ -1,64 +1,66 @@
-<!-- Portfolio Modal Prochain client -->
-<div class="portfolio-modal modal fade" id="ModalAttaqueDirect" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
+  <!-- Comment faire une attaque "Direct" -->
+  <div class="portfolio-modal modal fade" id="ModalAttaqueDirect" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"> </div>
+          </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2>Comment attaquer un joueur avec la technique dite "Direct".</h2>
-              <p class="item-intro text-muted">
-                Rappel du virus. <br>
-              </p>
-              <img class="img-responsive img-centered" src="" alt="">
-              <p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Comment attaquer un joueur avec la technique dite "Direct".</h2>
+                <p class="item-intro text-muted">
+                  Rappel du virus. <br>
+                </p>
+                <img class="img-responsive img-centered" src="" alt="">
+                <p>
 
-              </p>
-              <img class="img-responsive img-centered" src="" alt="">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+                </p>
+                <img class="img-responsive img-centered" src="" alt="">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<div class="portfolio-modal modal fade" id="ModalAttaqueBounce" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"> </div>
+  <!-- Comment faire une attaque "Bounce" -->
+  <div class="portfolio-modal modal fade" id="ModalAttaqueBounce" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"> </div>
+          </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <!-- Project Details Go Here -->
-              <h2>Comment attaquer un joueur avec la technique dite "Bounce".</h2>
-              <p class="item-intro text-muted">
-                Rappel du virus. <br>
-              </p>
-              <img class="img-responsive img-centered" src="" alt="">
-              <p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2>Comment attaquer un joueur avec la technique dite "Bounce".</h2>
+                <p class="item-intro text-muted">
+                  Rappel du virus. <br>
+                </p>
+                <img class="img-responsive img-centered" src="" alt="">
+                <p>
 
-              </p>
-              <img class="img-responsive img-centered" src="" alt="">
-              <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+                </p>
+                <img class="img-responsive img-centered" src="" alt="">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer la fenêtre</button> </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
+  <!-- Comment eviter le virus delete ip history -->
   <div class="portfolio-modal modal fade" id="ModalVirusDeleteIpHistory" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -137,8 +139,8 @@
     </div>
   </div>
 
-  <!-- Portfolio Modal Prochain client -->
-    <div class="portfolio-modal modal fade" id="Modal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Tutoriel Modal Prochain  -->
+    <div class="portfolio-modal modal fade" id="NomDeLaModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
