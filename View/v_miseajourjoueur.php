@@ -54,7 +54,11 @@
                 <a href="#Alliances" onclick=$("#menu-close").click();>Nos alliances</a>
             </li>
             <li>
-                <a href="tutoriel.php" onclick=$("#menu-close").click();>Tutoriel</a>
+                <a href="tutoriel.php" onclick=$("#menu-close").click();>Les tutoriels</a>
+            </li>
+            <hr class="small">
+            <li>
+                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes du Bot</a>
             </li>
         </ul>
     </nav>

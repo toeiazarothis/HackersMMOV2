@@ -56,6 +56,10 @@
             <li>
                 <a href="c_tutoriel.php" onclick=$("#menu-close").click();>Les Tutoriels</a>
             </li>
+            <hr class="small">
+            <li>
+                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes du Bot</a>
+            </li>
         </ul>
     </nav>
 

@@ -45,13 +45,17 @@
                 <a href="c_index.php" onclick=$("#menu-close").click();>Accueil</a>
             </li>
             <li>
-                <a href="#TutorielAnnonce" onclick=$("#menu-close").click();>Les tutoriels</a>
-            </li>
-            <li>
                 <a href="c_histoire.php" onclick=$("#menu-close").click();>Notre Histoire</a>
             </li>
             <li>
                 <a href="c_alliances.php" onclick=$("#menu-close").click();>Nos alliances</a>
+            </li>
+            <li>
+                <a href="#TutorielAnnonce" onclick=$("#menu-close").click();>Les tutoriels</a>
+            </li>
+            <hr class="small">
+            <li>
+                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes du Bot</a>
             </li>
         </ul>
     </nav>
