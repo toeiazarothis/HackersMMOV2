@@ -9,7 +9,7 @@
     <meta name="author" content="ToeiAzarothis">
     <link rel="author" href="humans.txt"/>
 
-    <title>Acceuil de la F.H.C</title>
+    <title>Commande des Bots</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../View/css/bootstrap.css" rel="stylesheet">
