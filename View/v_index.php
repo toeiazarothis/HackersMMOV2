@@ -58,7 +58,7 @@
             </li>
             <hr class="small">
             <li>
-                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes du Bot</a>
+                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes de Tatsumaki</a>
             </li>
         </ul>
     </nav>
@@ -100,7 +100,14 @@
                 <div class="col-lg-8 text-center">
                     <h2>Afin d'améliorer la cohésion au sein de la communauté!</h2>
                     <p class="lead">Un serveur de conversation Discord à était ouvert.</p>
-                    <button type="button" class="btn btn-success btn-lg">Rejoind la F.H.C</button>
+                    <p class="lead">Afin d'éviter tout débordement et/ou des conflits, certaines règles sont à suivre impérativement. Celle-ci se trouve sur la page <a href="c_regle.php">Règles</a> et elle sont également disponible sur Discord dans un salon prévu a cet effet.</p>
+                    <p class="lead">Vous souhaitez rejoindre la communauté F.H.C ?<br>
+                      Il vous faut répondre à certains critères.
+                      <li class="lead">Etre Francophone</li>
+                      <li class="lead">Avoir une reputation > 1000</li>
+                      <li class="lead">Faire partit d'une guilde de l'alliance</li>
+                    </p>
+                    <button type="button" class="btn btn-success btn-lg">Postulez</button>
                 </div>
                 <div class="col-lg-4 text-center">
                   <iframe src="https://discordapp.com/widget?id=273511688689418240&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>

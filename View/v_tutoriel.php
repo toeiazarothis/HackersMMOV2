@@ -55,7 +55,7 @@
             </li>
             <hr class="small">
             <li>
-                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes du Bot</a>
+                <a href="c_tatsumaki.php" onclick=$("#menu-close").click();>Commandes de Tatsumaki</a>
             </li>
         </ul>
     </nav>
